@@ -1,0 +1,115 @@
+body{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 0;
+
+}
+
+
+
+.mainheader{
+	background-color: green;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+	color: white;
+	list-style-type: none;
+	display: flex;
+}
+
+.header{
+	font-size: 30px;
+	position: relative;
+	margin-bottom: 5px;	
+	left: 20px;	
+}
+
+.searchBar{
+	position: relative;
+	left: 100px;
+	top: 50px;
+}
+
+.search{
+	border-radius: 5px;
+	outline: none;
+	width: 250px;
+	height: 25px;
+	font-size: 15px;
+}
+
+label{
+	display: block;
+	margin-bottom: 5px;
+	font-size: 25px
+}
+
+
+.container{
+	border: 5px solid #f4f4f4;
+	border-radius: 5px;
+	width: 500px;
+	height: 350px;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+
+.Add input{
+	border-color: #CCD1D1 ;
+	font-size: 20px;
+	position: relative;
+	left: 10px;
+	width: 300px;
+}
+
+.Display input{
+	position: relative;
+	top: 10px;
+	width: 380px;
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.disItems{
+	border: 2px solid #f4f4f4;
+	border-radius: 5px;
+	width: 450px;
+	height: 180px;
+}
+
+.Add{
+	margin-bottom: 30px;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+.Display{
+	position: relative;
+	left: 10px;
+}
+
+.groupItems{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	border:2px solid #BFC9CA ;
+	width: 400px;
+}
+
+.addBtn{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	width: 20%;
+	border-radius: 5px;
+}
+
+.delete{
+	font-size: 20px;
+	background-color: coral;
+	position: relative;
+	top: 10px;
+}
