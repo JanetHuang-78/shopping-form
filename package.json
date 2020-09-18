@@ -1,0 +1,15 @@
+{
+  "name": "shopping-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "Homepage": "https://github.io/JanetHuang-78/shopping-form",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

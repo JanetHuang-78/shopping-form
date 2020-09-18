@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>My DOM Crash Project</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<ul class="mainheader" id="mainheader">
+			<li class="header" id="header">
+				<h2 class="lister">Shopping List</h2>
+			</li>	
+			<li class="searchBar" id="searchBar">
+				Search:<input class="search" id="search" type="text" name="">
+			</li>
+	   </ul>
+	</header>
+<div class="container">
+	<form class="form" id="form">
+		<div class="content">
+			<div class="Add" id="Add">
+				<label>Add Items</label>
+				<input class="addItem" id="addItem" type="text" name="">
+				<button class="addBtn" id="addBtn">Submit</button>
+			</div>
+			<div class="Display">
+				<label>Items:</label>
+				<div class="disItems" id="disItems">
+					<input class = "groupItems" id="0" type="text" value="Apples" name="pre">
+					<button type="text" class="delete" id="b0" onclick="Delete(id)">X</button>
+					<input class = "groupItems" id="1" type="text" value="" name="pre">
+					<button type="text" class="delete" id="b1" onclick="Delete(id)">X</button>
+					<input class = "groupItems" id="2" type="text" value="" name="pre">
+					<button type="text" class="delete" id="b2" onclick="Delete(id)">X</button>
+					<input class = "groupItems" id="3" type="text" value="" name="pre">
+					<button type="text" class="delete" id="b3" onclick="Delete(id)">X</button>
+					
+				</div>
+			</div>		
+		</div>
+	</form>
+</div>	
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
